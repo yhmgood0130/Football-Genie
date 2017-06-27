@@ -1,15 +1,44 @@
 #map {
   height: 14em;
   width: 14em;
+  left: 34%;
 }
 
 
 /* Optional: Makes the sample page fill the window. */
 
-html, body {
+/*body {
   height: 100%;
   margin: 0;
   padding: 0;
+}*/
+
+.container{
+  width: 95%;
+}
+
+.col-md-4 img {
+  width: 25%;
+}
+
+#search-bar{
+  padding-bottom: 2em;
+}
+
+#team-info{
+  padding-top: 2em;
+}
+
+div > #row2 > p {
+  padding-top: 1em;
+}
+
+div > #row2 > p:last-child {
+  padding-bottom: 1em;
+}
+
+div > #map{
+  margin-bottom: 2em !important;
 }
 
 #logo {
