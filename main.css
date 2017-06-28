@@ -18,7 +18,30 @@
 }
 
 .col-md-4 img {
-  width: 25%;
+  width: 33.33%;
+  padding-top: 2em;
+  padding-bottom: 0.2em;
+}
+
+.cover-heading,
+.lead{
+  padding: 0.5em;
+}
+
+div > #row2 img{
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+.league-teams {
+  min-height: 15em;
+}
+
+.players-info {
+  min-height: 24em;
+}
+
+.players-info img{
+  min-width: 10em;
 }
 
 #search-bar{
@@ -35,6 +58,14 @@ div > #row2 > p {
 
 div > #row2 > p:last-child {
   padding-bottom: 1em;
+}
+
+div > #row2 > img {
+  margin-top: 2em !important;
+}
+
+div > #row2 > h3 {
+  padding: 0.1em 0;
 }
 
 div > #map{
@@ -89,6 +120,11 @@ div > #map{
 .pac-controls {
   display: inline-block;
   padding: 5px 11px;
+}
+
+
+#search-bar {
+  margin-left: 0 !important;
 }
 
 .pac-controls label {

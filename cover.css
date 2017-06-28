@@ -30,6 +30,8 @@ body {
   background-color: #333;
   background-image: url("https://traveldigg.com/wp-content/uploads/2016/08/Stamford-Bridge-Stadium-Wallpaper.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 body {
   color: #fff;
@@ -95,7 +97,10 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
+  border-bottom: 2px solid;
 }
+
+
 
 @media (min-width: 768px) {
   .masthead-brand {
