@@ -59,7 +59,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 10px;
 }
 
 
@@ -117,7 +117,7 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -165,6 +165,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 960px;
   }
 }

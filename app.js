@@ -82,16 +82,13 @@ $(document).ready(function() {
         for (var i = 0; i < data.player.length; i++) {
 
           $("div#row2").append($('<div class="col-md-4 players-info" id=' + i + '></div>'));
-          // var img = "<img>"
-
-
-          // console.log("Team Players: " + data.player[i].strPlayer);
+          
           if (!data.player[i].strCutout) {
             $("#" + i).append($("<img src= /bean.jpg >"));
           } else {
             $("#" + i).append($("<img src=" + data.player[i].strCutout + ">"));
           }
-          $("#" + i).append($("<h3>" + data.player[i].strPlayer + "</h3>"));
+          $("#" + i).append($("<h2>" + data.player[i].strPlayer + "</h2>"));
           $("#" + i).append($("<p>Nationality: " + data.player[i].strNationality + "</p>"));
           $("#" + i).append($("<p>Number: " + data.player[i].intSoccerXMLTeamID + "</p>"));
         }
@@ -181,9 +178,39 @@ $(document).ready(function() {
       });
     }
 
-
+    $("#search").val('');
 
   })
+
+
+  var myform = $("form#myform");
+
+  myform.submit(function(event){
+  	event.preventDefault();
+
+  	var params = myform.serializeArray().reduce(function(obj, item) {
+       obj[item.name] = item.value;
+       return obj;
+    }, {});
+
+    // Change to your service ID, or keep using the default service
+    var service_id = "default_service";
+
+    var template_id = "football_genie";
+    console.log(params);
+    myform.find("button").text("Sending...");
+    emailjs.send(service_id,template_id,params)
+    	.then(function(){
+         alert("Sent!");
+         myform.find("button").text("Submit");
+       }, function(err) {
+         alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+         myform.find("button").text("Send");
+      });
+    return false;
+  });
+
+  //Clear search bar
 
 
 
