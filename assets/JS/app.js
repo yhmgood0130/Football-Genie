@@ -303,7 +303,7 @@ $(document).ready(function() {
             $("#" + i).append($("<h4>Founded: " + data.countrys[i].intFormedYear + "</h4>"));
 
             if(data.countrys[i].strWebsite){
-              $("#" + i).append($('<a href="http://' + data.countrys[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
+              $("#" + i).append($('<a href="http://' + data.countrys[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/website.png"></a>'));
             }
 
             if (data.countrys[i].strFacebook) {
@@ -356,7 +356,7 @@ $(document).ready(function() {
           }
 
           if(data.teams[i].strWebsite){
-            $("#" + i).append($('<a href="http://' + data.teams[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
+            $("#" + i).append($('<a href="http://' + data.teams[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/website.png"></a>'));
           }
 
           if (data.teams[i].strFacebook) {
