@@ -33,7 +33,7 @@ $(document).ready(function() {
         hideLoading();
 
         if(!data.teams){
-          $("div#row2").append($("<h3>Sorry you've entered wrong data.</h3>"))
+          $("div#row2").append($("<h3>Sorry you've entered the wrong data.</h3>"))
         }else{
 
         $("div#row2").append($("<h3>Country: " + data.teams[0].strCountry + "</h3>"))
@@ -126,7 +126,7 @@ $(document).ready(function() {
         hideLoading();
 
         if(!data.player){
-          $("div#row2").append($("<h3>Sorry you've entered wrong data.</h3>"))
+          $("div#row2").append($("<h3>Sorry you've entered the wrong data.</h3>"))
         }else{
 
         for (var i = 0; i < data.player.length; i++) {
@@ -196,7 +196,7 @@ $(document).ready(function() {
         hideLoading();
 
         if(!data.player){
-          $("div#row2").append($("<h3>Sorry you've entered wrong data.</h3>"))
+          $("div#row2").append($("<h3>Sorry you've entered the wrong data.</h3>"))
         }else{
 
         for (var i = 0; i < data.player.length; i++) {
@@ -280,7 +280,7 @@ $(document).ready(function() {
         hideLoading();
 
         if(!data.countrys){
-          $("div#row2").append($("<h3>Sorry you've entered wrong data.</h3>"))
+          $("div#row2").append($("<h3>Sorry you've entered the wrong data.</h3>"))
         }else{
 
         for (var i = 0; i < data.countrys.length; i++) {
@@ -327,7 +327,7 @@ $(document).ready(function() {
         hideLoading();
 
         if(!data.teams){
-          $("div#row2").append($("<h3>Sorry you've entered wrong data.</h3>"))
+          $("div#row2").append($("<h3>Sorry you've entered the wrong data.</h3>"))
         }else{
 
         for (var i = 0; i < data.teams.length; i++) {
