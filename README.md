@@ -32,7 +32,7 @@
 
 ![Image](https://github.com/yhmgood0130/Q1-Project/blob/master/assets/images/contact_me.png)
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/c6ah8slenzM)
+[![Alt text](https://img.youtube.com/vi/c6ah8slenzM/0.jpg)](https://youtu.be/c6ah8slenzM)
 
 This project helps users to save their time for searching and have easy access to the detail of what they are looking for. Options for searching are 'search for players by name', 'search for team by name', 'search for all players from team', 'Search for all Leagues in a country', and 'Search for all Teams in a League'. So if you've ever had difficult time to search the name of leagues, teams or players, this website solves all those problems and there's even link to the website, if available, if users want to look into more details. For API, SportDB, Google Map, and EmailJS have been used for this project. SportDB is main API source for this project, Google Map API has been used for the location of stadium when you search for team by name. I used EmailJS for Contact Me option.
 
