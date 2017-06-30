@@ -1,7 +1,8 @@
 #map {
   height: 14em;
   width: 14em;
-  left: 38%;
+  left: 39%;
+  margin-top: 2em;
 }
 
 .nav-style{
@@ -57,18 +58,17 @@
   padding-bottom: 0.2em;
 }
 
-.col-md-8 img {
+.contact-page img {
   width: 60%;
+  height: 60%;
   padding-top: 2em;
   padding-bottom: 0.2em;
-  border-radius: 65%;
-
 }
 
 .contact-page{
   display: flex;
   width: 95%;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .cover{
@@ -85,14 +85,45 @@ div > #row2 img{
   padding-bottom: 0.5em;
 }
 .league-teams {
-  min-height: 15em;
+  min-height: 26em;
+}
+
+.league-teams > p{
+  font-size: 1.1em;
+}
+
+.leagues-info {
+  padding-top: 1em;
+  min-height: 38em;
+}
+
+.leagues-image {
+  width: 35% !important;
+}
+
+.loading{
+  display: inline-block;
+  text-align: center;
+  padding-top: 2em;
+  opacity: 0.5;
 }
 
 .players-info {
-  min-height: 24em;
+  padding-top: 1em;
+  min-height: 42em;
 }
 
-.players-info img{
+div > #row2 > p{
+  font-size: 1.5em;
+}
+
+.social-image{
+  width: 3em !important;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.players-image {
   min-width: 10em;
 }
 
