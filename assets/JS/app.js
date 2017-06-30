@@ -72,7 +72,7 @@ $(document).ready(function() {
         }
 
         if(data.teams[0].strWebsite){
-          $("div#row2").append($('<a href="http://' + data.teams[0].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
+          $("div#row2").append($('<a href="http://' + data.teams[0].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/website.png"></a>'));
         }
 
         if (data.teams[0].strFacebook) {
