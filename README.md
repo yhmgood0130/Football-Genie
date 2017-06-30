@@ -1,6 +1,6 @@
 # Q1-Project
 
-##Wireframe CC
+## Wireframe CC
 
 [Wireframe CC link](https://wireframe.cc/pro/pp/cfe7c615e95350)
 
@@ -30,11 +30,11 @@
 
 This project helps users to save their time for searching and have easy access to the detail of what they are looking for. Options for searching are 'search for players by name', 'search for team by name', 'search for all players from team', 'Search for all Leagues in a country', and 'Search for all Teams in a League'. So if you've ever had difficult time to search the name of leagues, teams or players, this website solves all those problems and there's even link to the website, if available, if users want to look into more details. For API, SportDB, Google Map, and EmailJS have been used for this project. SportDB is main API source for this project, Google Map API has been used for the location of stadium when you search for team by name. I used EmailJS for Contact Me option.
 
-##Deployment
+## Deployment
 
 Simply used the [Google Firebase](https://firebase.google.com/) to deploy the website on a live system.
 
-##Built with
+## Built with
 
 * [Wireframe CC](https://wireframe.cc/) - Design the outline of website
 
