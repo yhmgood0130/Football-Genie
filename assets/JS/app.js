@@ -72,17 +72,17 @@ $(document).ready(function() {
         }
 
         if(data.teams[0].strWebsite){
-          $("div#row2").append($('<a href="http://' + data.teams[0].strWebsite + '"><img class="social-image" alt="Website link" src="Website.png"></a>'));
+          $("div#row2").append($('<a href="http://' + data.teams[0].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
         }
 
         if (data.teams[0].strFacebook) {
-          $("div#row2").append($('<a href="https://' + data.teams[0].strFacebook + '"><img class="social-image" alt="Facebook link" src="Facebook_logo-8.png"></a>'));
+          $("div#row2").append($('<a href="https://' + data.teams[0].strFacebook + '"><img class="social-image" alt="Facebook link" src="/assets/images/Facebook_logo-8.png"></a>'));
         }
         if (data.teams[0].strTwitter) {
-          $("div#row2").append($('<a href="https://' + data.teams[0].strTwitter + '"><img class="social-image" alt="Twitter Link" src="twitter-icon.png"></a>'));
+          $("div#row2").append($('<a href="https://' + data.teams[0].strTwitter + '"><img class="social-image" alt="Twitter Link" src="/assets/images/twitter-icon.png"></a>'));
         }
         if (data.teams[0].strInstagram) {
-          $("div#row2").append($('<a href="https://' + data.teams[0].strInstagram + '"><img class="social-image" alt="Twitter Link" src="Instagram-logo.png"></a>'));
+          $("div#row2").append($('<a href="https://' + data.teams[0].strInstagram + '"><img class="social-image" alt="Twitter Link" src="/assets/images/Instagram-logo.png"></a>'));
         }
 
         var address = data.teams[0].strStadiumLocation;
@@ -134,7 +134,7 @@ $(document).ready(function() {
           $("div#row2").append($('<div class="col-md-4 players-info" id=' + i + '></div>'));
 
           if (!data.player[i].strCutout) {
-            $("#" + i).append($('<img class="players-image" src= /bean.jpg >'));
+            $("#" + i).append($('<img class="players-image" src= /assets/images/bean.jpg >'));
           } else {
             $("#" + i).append($('<img class="players-image" src="' + data.player[i].strCutout + '">'));
           }
@@ -177,13 +177,13 @@ $(document).ready(function() {
           }
 
           if (data.player[i].strFacebook) {
-            $("#" + i).append($('<a href="https://' + data.player[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="Facebook_logo-8.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.player[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="/assets/images/Facebook_logo-8.png"></a>'));
           }
           if (data.player[i].strTwitter) {
-            $("#" + i).append($('<a href="https://' + data.player[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="twitter-icon.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.player[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="/assets/images/twitter-icon.png"></a>'));
           }
           if (data.player[i].strInstagram) {
-            $("#" + i).append($('<a href="https://' + data.player[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="Instagram-logo.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.player[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="/assets/images/Instagram-logo.png"></a>'));
           }
         }
       }
@@ -209,7 +209,7 @@ $(document).ready(function() {
             }
 
             if (!data.player[i].strCutout) {
-              $("#" + i).append($('<img class="players-image" src= /bean.jpg >'));
+              $("#" + i).append($('<img class="players-image" src= /assets/images/bean.jpg >'));
             } else {
               $("#" + i).append($('<img class="players-image" src="' + data.player[i].strCutout + '">'));
             }
@@ -259,13 +259,13 @@ $(document).ready(function() {
             }
 
             if (data.player[i].strFacebook) {
-              $("#" + i).append($('<a href="https://' + data.player[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="Facebook_logo-8.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.player[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="/assets/images/Facebook_logo-8.png"></a>'));
             }
             if (data.player[i].strTwitter) {
-              $("#" + i).append($('<a href="https://' + data.player[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="twitter-icon.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.player[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="/assets/images/twitter-icon.png"></a>'));
             }
             if (data.player[i].strInstagram) {
-              $("#" + i).append($('<a href="https://' + data.player[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="Instagram-logo.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.player[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="/assets/images/Instagram-logo.png"></a>'));
             }
           }
         }
@@ -289,7 +289,7 @@ $(document).ready(function() {
             $("div#row2").append($('<div class="leagues-info" id=' + i + '></div>'));
 
             if (!data.countrys[i].strBadge) {
-              $("#" + i).append($("<img class='leagues-image' src= /bean.jpg >").width("70%").height("70%"));
+              $("#" + i).append($("<img class='leagues-image' src= /assets/images/bean.jpg >").width("70%").height("70%"));
             } else {
               $("#" + i).append($("<img class='leagues-image' src=" + data.countrys[i].strBadge + ">").width("40%").height("40%"));
             }
@@ -303,19 +303,19 @@ $(document).ready(function() {
             $("#" + i).append($("<h4>Founded: " + data.countrys[i].intFormedYear + "</h4>"));
 
             if(data.countrys[i].strWebsite){
-              $("#" + i).append($('<a href="http://' + data.countrys[i].strWebsite + '"><img class="social-image" alt="Website link" src="Website.png"></a>'));
+              $("#" + i).append($('<a href="http://' + data.countrys[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
             }
 
             if (data.countrys[i].strFacebook) {
-              $("#" + i).append($('<a href="https://' + data.countrys[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="Facebook_logo-8.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.countrys[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="/assets/images/Facebook_logo-8.png"></a>'));
             }
 
             if (data.countrys[i].strTwitter) {
-              $("#" + i).append($('<a href="https://' + data.countrys[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="twitter-icon.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.countrys[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="/assets/images/twitter-icon.png"></a>'));
             }
 
             if (data.countrys[i].strInstagram) {
-              $("#" + i).append($('<a href="https://' + data.countrys[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="Instagram-logo.png"></a>'));
+              $("#" + i).append($('<a href="https://' + data.countrys[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="/assets/images/Instagram-logo.png"></a>'));
             }
           }
         }
@@ -335,7 +335,7 @@ $(document).ready(function() {
           $("div#row2").append($('<div class="col-md-4 league-teams" id=' + i + '></div>'));
 
           if (!data.teams[i].strTeamBadge) {
-            $("#" + i).append($("<img src= /bean.jpg >"));
+            $("#" + i).append($("<img src= /assets/images/bean.jpg >"));
           } else {
             $("#" + i).append($("<img src=" + data.teams[i].strTeamBadge + ">").width("40%").height("40%"));
           }
@@ -356,19 +356,19 @@ $(document).ready(function() {
           }
 
           if(data.teams[i].strWebsite){
-            $("#" + i).append($('<a href="http://' + data.teams[i].strWebsite + '"><img class="social-image" alt="Website link" src="Website.png"></a>'));
+            $("#" + i).append($('<a href="http://' + data.teams[i].strWebsite + '"><img class="social-image" alt="Website link" src="/assets/images/Website.png"></a>'));
           }
 
           if (data.teams[i].strFacebook) {
-            $("#" + i).append($('<a href="https://' + data.teams[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="Facebook_logo-8.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.teams[i].strFacebook + '"><img class="social-image" alt="Facebook link" src="/assets/images/Facebook_logo-8.png"></a>'));
           }
 
           if (data.teams[i].strTwitter) {
-            $("#" + i).append($('<a href="https://' + data.teams[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="twitter-icon.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.teams[i].strTwitter + '"><img class="social-image" alt="Twitter Link" src="/assets/images/twitter-icon.png"></a>'));
           }
 
           if (data.teams[i].strInstagram) {
-            $("#" + i).append($('<a href="https://' + data.teams[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="Instagram-logo.png"></a>'));
+            $("#" + i).append($('<a href="https://' + data.teams[i].strInstagram + '"><img class="social-image" alt="Twitter Link" src="/assets/images/Instagram-logo.png"></a>'));
           }
         }
       }
@@ -405,6 +405,7 @@ $(document).ready(function() {
          alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
          myform.find("button").text("Send");
       });
+
     return false;
   });
 
