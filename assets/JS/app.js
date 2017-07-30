@@ -7,6 +7,12 @@ $(document).ready(function() {
          $(this).addClass("active");
   });
 
+  $("#search").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#sub").click();
+    }
+});
+
   $("#sub").click(function() {
     displayLoading();
     $("div#row2").empty();
