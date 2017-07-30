@@ -38,7 +38,7 @@
 
 ## Project link
 
-![Football Genie](https://football-genie.firebaseapp.com/)
+[Football Genie](https://football-genie.firebaseapp.com/)
 
 ## Project Description
 
